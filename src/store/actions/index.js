@@ -1,5 +1,5 @@
 
-const url = 'https://www.reddit.com/.json';
+const url = 'https://www.reddit.com/.json?limit=100';
 
 
 const dispatchGetSubReddit = (payload) => {
