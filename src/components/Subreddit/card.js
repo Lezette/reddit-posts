@@ -35,7 +35,7 @@ const SubRedditCard = ({data}) => {
                     <CardActionArea>
                         <CardMedia
                         className={classes.media}
-                        image={data.url}
+                        image={data.thumbnail}
                         title={data.title}
                         alt={data.title}
                         
